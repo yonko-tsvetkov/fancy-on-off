@@ -1,0 +1,37 @@
+.ui-fancyonff {
+    
+}
+.ui-fancyonff__fancyonff,
+.ui-fancyonff__label_l,
+.ui-fancyonff__label_r {
+    display: inline-block;
+    vertical-align: middle;
+}
+.ui-fancyonff__label {
+    cursor: pointer;
+    padding: 4px;
+}
+.ie7 .ui-fancyonff__fancyonff,
+.ie7 .ui-fancyonff__label_l,
+.ie7 .ui-fancyonff__label_r {
+    display: inline;
+    zoom: 1;
+}
+.ui-fancyonff__label_active {
+    color: #ccc;
+}
+.ui-fancyonff__fancyonff {
+    
+}
+.ui-fancyonff__runner {
+    
+}
+.ie7 .ui-fancyonff__runner {
+    top: 0;
+}
+.ui-fancyonff__runner_move {
+   
+}
+.ui-fancyonff__label_active + .ui-fancyonff__fancyonff .ui-fancyonff__runner {
+    left: 0;
+}
