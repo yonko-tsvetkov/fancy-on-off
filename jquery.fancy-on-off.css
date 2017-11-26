@@ -1,15 +1,33 @@
 .ui-fancyonff {
-    
+    background: #eee;
+    border: 2px solid #000;
+    border-radius: 30px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.3) inset, 0 0 1px rgba(0,0,0,0.3);
+    color: #999999;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 24px;
+    line-height: 20px;
+    margin: 0 0 12px;
+    padding: 4px 8px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 .ui-fancyonff__fancyonff,
 .ui-fancyonff__label_l,
 .ui-fancyonff__label_r {
     display: inline-block;
+    line-height: 20px;
     vertical-align: middle;
 }
 .ui-fancyonff__label {
     cursor: pointer;
-    padding: 4px;
+    padding: 2px 4px;
 }
 .ie7 .ui-fancyonff__fancyonff,
 .ie7 .ui-fancyonff__label_l,
@@ -18,19 +36,54 @@
     zoom: 1;
 }
 .ui-fancyonff__label_active {
-    color: #ccc;
+    color: #333333;
 }
 .ui-fancyonff__fancyonff {
-    
+    background: #000;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.45) inset;
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.45) inset;
+    -o-box-shadow: 0 0 5px rgba(0, 0, 0, 0.45) inset;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.45) inset;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -o-border-radius: 12px;
+    border-radius: 12px;
+    cursor: default;
+    height: 24px;
+    overflow: hidden;
+    position: relative;
+    vertical-align: bottom;
+    width: 40px;
 }
 .ui-fancyonff__runner {
-    
+    background: dodgerblue;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 20px;
+    left: 16px;
+    margin: 2px;
+    position: absolute;
+    top: 0;
+    -webkit-transition: left .2s ease-out;
+    -moz-transition: left .2s ease-out;
+    -ms-transition: left .2s ease-out;
+    -o-transition: left .2s ease-out;
+    transition: left .2s ease-out;
+    width: 20px;
+    z-index: 1;
 }
 .ie7 .ui-fancyonff__runner {
     top: 0;
 }
 .ui-fancyonff__runner_move {
-   
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
 }
 .ui-fancyonff__label_active + .ui-fancyonff__fancyonff .ui-fancyonff__runner {
     left: 0;
